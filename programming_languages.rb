@@ -9,6 +9,7 @@ def reformat_languages(languages)
         type_value_arr = type.values
         type_value = type_value_arr[0]
         new_hash[lang] = {:type => type_value, :style => [styles]}
+      end
     end
   end
   return new_hash
